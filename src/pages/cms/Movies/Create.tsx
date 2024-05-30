@@ -2,7 +2,6 @@ import { useState } from "react";
 import { setInForm } from "../../../libs";
 import { useNavigate } from "react-router-dom";
 import http from "../../../http";
-import toast from "react-hot-toast";
 
 const Create = () => {
     const [form, setForm] = useState<any>({});

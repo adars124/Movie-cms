@@ -55,7 +55,7 @@ const List = () => {
             <Breadcrumb pageName="Movies" />
             <section className="container mx-auto font-mono">
                 <div className="pb-10">
-                    <h1 className="text-2xl w-full p-4 bg-gray-400">
+                    <h1 className="text-2xl w-full p-2 bg-gray-400">
                         <Link to="/cms/movies/create" className="absolute text-sm bg-secondary font-bold text-meta-4 px-4 py-1.5 hover:bg-body hover:text-whiten transition-all duration-100 rounded-md">
                             <div className="flex items-center gap-2">
                                 <span>Add Movies</span>

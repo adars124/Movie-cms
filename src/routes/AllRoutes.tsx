@@ -18,6 +18,8 @@ const AllRoutes = () => {
                     <Route path="movies" element={<PrivateRoute element={<Pages.CMS.Movies.List />} />} />
                     <Route path="movies/create" element={<PrivateRoute element={<Pages.CMS.Movies.Create />} />} />
                     <Route path="movies/:id/edit" element={<PrivateRoute element={<Pages.CMS.Movies.Edit />} />} />
+                    <Route path="showtimes/list" element={<PrivateRoute element={<Pages.CMS.Movies.ListShowtime />} />} />
+                    <Route path="create/showtime" element={<PrivateRoute element={<Pages.CMS.Movies.UpdateShowtime />} />} />
 
                     {/* Users */}
                     <Route path="users" element={<PrivateRoute element={<Pages.CMS.Users.List />} />} />
